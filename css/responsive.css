@@ -1,0 +1,101 @@
+@media screen and (max-width:768px) {
+ 
+    .navbar_nav a{
+        display: none;
+    }
+    .nav_icon .fa-bars{
+        display: block;
+        margin-right: 10px;
+        margin-top: 10px;
+      }
+      .home_content{
+        width: 100%;
+        height: 100vh;
+         display: grid;
+        grid-template-columns: 100%;
+      
+        }
+        
+        .home_item1{
+            width: 100%;
+            background-image: url(/img/home.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        
+        .home_item2{
+        display: none;
+        }
+        .home_item1 h6{
+            color: black;
+            padding-bottom: 2rem;
+            font-size: 15px;
+            margin-top: 17rem;
+        }
+        
+        .home_item1 h1{
+            color: black;
+            font-size: 130px;
+            padding-bottom: 1rem;
+        }
+        
+        .home_item1 p{
+            width: 75%;
+            color: white;
+            line-height: 20px;
+            padding-bottom: 3rem;
+        }
+        
+        .home_item1 button{
+            border: none;
+            background-color: rgba(0, 0, 0, 0);
+            color: #fff;
+        }
+
+        .about_content{
+            height: 100%;
+            display: grid;
+            grid-template-columns: 100%;
+            gap: 3rem;
+            padding: 0 auto;
+        }
+        .about_item{
+            width: 100%;
+            height: 100%;
+            margin-top: 8%;
+            text-align: center;
+        }
+        .project{
+            width: 100%;
+            display: grid;
+           
+        }
+        .title{
+            width: 100%;
+           margin-bottom: 1rem;
+        }
+
+        .project_content{
+            width: 100%;
+            padding: 4.8rem 0;
+            display: grid;
+            grid-template-columns: 100%;
+            gap: 3rem;
+        }
+        .contact  .title span {
+            position: absolute;
+            color: #879672;
+            transform: translate(-50%, -50%);
+            font-size: 70px;
+            letter-spacing: 5px;
+            margin-left: 1%;
+            margin-bottom: 5%;
+          }
+
+          .contact__content{
+            display: grid;
+            grid-template-columns: 100%;
+            gap: 3rem;
+            margin-top: 3rem;
+          }
+}
